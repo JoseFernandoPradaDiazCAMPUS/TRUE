@@ -2,16 +2,6 @@
     margin-bottom: 0;
 }
 
-#warnings-top{
-    width: auto;
-    height: fit-content;
-}
-
-#warning-text {
-    color: #ffff;
-    white-space: 0px;
-}
-
 .nalink{
     color: #000;
     margin-right: 25px;
