@@ -6,3 +6,26 @@ button{
     margin-right: auto;
     margin-left: auto;
 }
+
+.subra{
+    color: #444;
+}
+
+.solici{
+    font-size: 15px;
+}
+
+button{
+    height: 60px;
+    width: 100px;
+    
+}
+
+body{
+    font-family: Futura,Arial,Tahoma,Verdana,sans-serif;
+    background-color: #ff95;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
