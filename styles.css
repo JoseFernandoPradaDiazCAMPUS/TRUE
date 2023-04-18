@@ -12,3 +12,15 @@
     color: #ffff;
     cursor: pointer;
 }
+
+.header-top{
+    background-color: black;
+}
+.carousel-item{
+    color: white;
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+    
+}
