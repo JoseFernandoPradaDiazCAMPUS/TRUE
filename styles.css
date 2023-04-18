@@ -2,10 +2,17 @@
     margin-bottom: 0;
 }
 
+.nav-row {
+    height: 50px;
+    width: auto;
+}
 .nalink{
     color: #000;
-    margin-right: 25px;
+    font-size: 15px;
+    margin-left: 11px;
+    margin-right: 11px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .nalink:hover{
@@ -19,8 +26,10 @@
 .carousel-item{
     color: white;
 }
-p{
+
+.coli-p {
+    font-size: 12px;
     text-align: center;
-    margin-top: 10px;
-    
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
