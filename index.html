@@ -33,7 +33,7 @@
           </div>
         </div>
         <nav>
-            <div class="row nav-row">
+            <div class="row nav-row g-0">
                 <div class="col-5 col-lg-1 col mobile-nav ps-4">
                     <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
                         <img src="./images/iconMenuNav.png" style="width: 30px; height: auto;">
@@ -54,7 +54,7 @@
                                     <a class="link-offcanvas" href="#">Clásicas</a>
                                 </li>
                                 <li>
-                                    <a class="link-offcanvas" href="#">Mujer</a>
+                                    <a class="link-offcanvas dropdown" href="#">Mujer</a>
                                 </li>
                                 <li>
                                     <a class="link-offcanvas" href="#">Hombre</a>
@@ -90,7 +90,7 @@
                                     <a class="link-offcanvas link-offcanvas-especial" href="#">TIK TOK</a>
                                 </li>
                                 <li>
-                                    <a href="#" type="button" class="btn btn">Login</a>
+                                    <a href="#" type="button" class="btn btn-dark btn-offcanvas ">Login</a>
 
                                 </li>
                             </ul>
@@ -116,15 +116,36 @@
                     <a class="nalink " href="#">BLOG</a>
                     <a class="nalink " href="#">SUSCRIBETE</a>
                 </div>
-                <div class="col-5 col-md-1"></div>
+                <div class="col-5 p-0 col-md-1"></div>
         </nav>
-          
-         
         </header>
     
-
     <section>
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/portada-caro-sm.webp" class="d-block w-100 d-lg-none" alt="">
+                    <img src="./images/protada-caro.webp" class="d-lg-block w-100 d-none" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/caro-2-sm.webp" class="d-block w-100 d-lg-none" alt="">
+                    <img src="./images/caro-2.webp" class="d-lg-block w-100 d-none" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/caro-3-sm.webp" class="d-block w-100 d-lg-none" alt="">
+                    <img src="./images/caro-3.webp" class="d-lg-block w-100 d-none" alt="">
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
 
+        </div>
     </section>
 
 
