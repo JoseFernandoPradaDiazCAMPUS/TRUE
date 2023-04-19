@@ -2,9 +2,8 @@ h6{
     text-align: center;
 }
 
-button{
-    margin-right: auto;
-    margin-left: auto;
+.botones{
+    justify-content: center;
 }
 
 .subra{
@@ -15,17 +14,63 @@ button{
     font-size: 15px;
 }
 
-button{
-    height: 60px;
-    width: 100px;
+.image-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     
 }
 
 body{
-    font-family: Futura,Arial,Tahoma,Verdana,sans-serif;
-    background-color: #ff95;
     font-size: 14px;
-    line-height: 1.4;
+    line-height: 0;
     margin: 0;
     padding: 0;
+    letter-spacing: 0px!important;
+}
+
+.container-boton{
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+}
+
+.Boton1{
+    display: inline-block;
+    margin-right: 15px;
+    padding: 1px;
+    text-decoration: none;
+}
+
+.Boton2{
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.wasa{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.btn-scrolltop{
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    padding: 15px 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
 }
