@@ -83,3 +83,7 @@
     height: auto;
 }
 
+.navbar:ul{
+    list-style: none;
+}
+
