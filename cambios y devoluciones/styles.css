@@ -1,3 +1,16 @@
+h6{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* NAVBAR */
 *{
     margin-bottom: 0;
 }
@@ -72,10 +85,7 @@
     height: auto;
 }
 
-h6{
-    text-align: center;
-}
-
+/* BOTONES DE SOLICITAR */
 .botones{
     justify-content: center;
 }
@@ -96,18 +106,10 @@ h6{
     
 }
 
-body{
-    font-size: 14px;
-    line-height: 0;
-    margin: 0;
-    padding: 0;
-    letter-spacing: 0px!important;
-}
-
 .container-boton{
     display: flex;
     justify-content: center;
-    padding: 45px;
+    padding: 30px;
 }
 
 .Boton1{
@@ -122,14 +124,11 @@ body{
     text-decoration: none;
 }
 
-ul{
-    list-style-type: none;
+/* CONTENIDO */
+.contenido{
+    font-size: 15px;
 }
-
-li{
-    list-style-type: none;
-}
-
+/* WHATSAPP */
 .wasa{
     position: fixed;
     bottom: 20px;
@@ -138,7 +137,28 @@ li{
     height: 60px;
 }
 
-/* .icons-fin{
-    justify-content: center;
-    align-items: center;
-} */
+/* PIE PÀGINA */
+.pie{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.ultimo{
+    line-height: 9px;
+    font-size: 14px;
+}
+
+/* COSITO DE ARRBA */
+.colec-row{
+    background-color: #F9F9F9;
+}
+
+.colec-line{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 260px;
+} 
+
