@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;900&display=swap');
+
 img {
     object-fit: cover;
     width: 100%;
@@ -23,10 +25,10 @@ img {
     overflow: hidden;
 }
 .before img{
-    transition: transform .6s;
+    transition: transform .8s;
 }
 .before:hover img{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .before:hover::before{
     opacity: 1;
@@ -36,7 +38,7 @@ img {
 .before::before{
     transition: opacity .6s;
     content: attr(data-content);
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #fff;
     height: 100%;
     width: 100%;
@@ -47,5 +49,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Inter','sans-serif' !important;
 }
 
