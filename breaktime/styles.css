@@ -236,7 +236,7 @@ p{
 
 @font-face {
   font-family: Sequel;
-  src: url(./fonts/sequel-100-black-96.ttf);
+  src: url(../fonts/sequel-100-black-96.ttf);
 }
 
 .header-top{
