@@ -11,3 +11,28 @@
 .colec-line-sp:hover {
     color: #A3A3A3;
 }
+
+.botones-in{
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    position: relative;
+    gap: 50px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.talla{
+    height: auto;
+    width: 40px;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+
+.talla:hover{
+    background-color: #3e3e3e;
+    color: white;
+    
+}
