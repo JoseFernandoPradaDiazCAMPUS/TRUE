@@ -1,5 +1,16 @@
 @import url(../styles.css);
-@import url(../coleccionAireLibre/styles.css);
+
+.colec-row{
+    background-color: #F9F9F9;
+}
+
+.colec-line{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 40px;
+}
 
 .colec-line-sp {
     color: #000;
