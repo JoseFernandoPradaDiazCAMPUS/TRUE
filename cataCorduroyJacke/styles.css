@@ -1,5 +1,5 @@
-@import url(/styles.css);
-@import url(/aireLibre/styles.css);
+@import url(../styles.css);
+@import url(../coleccionAireLibre/styles.css);
 
 .colec-line-sp {
     color: #000;
