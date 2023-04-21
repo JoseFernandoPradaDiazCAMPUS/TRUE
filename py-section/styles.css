@@ -1,4 +1,130 @@
 @import url(../breaktime/styles.css);
-@import url(../br-section/styles.css);
+@import url(../py-section/styles.css);
 
 
+.accordion-item{
+    border: 0 !important; 
+
+}
+.accordion-button{
+    padding: 0 !important;
+
+}
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: white !important;
+    box-shadow: inset 0 -1px 0 rgb(255, 255, 255) !important;
+    padding: 0 !important;
+    
+}
+.accordion-button:focus {
+    border-color: white !important;
+}
+.a{
+    text-decoration: none !important;
+}
+
+.colec-line-sp {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 40px;
+}
+
+.colec-line-sp:hover {
+    color: #A3A3A3;
+}
+
+.botones-in{
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    position: relative;
+    gap: 50px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.colec-line-sp {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 40px;
+}
+
+.colec-line-sp:hover {
+    color: #A3A3A3;
+}
+
+.botones-in{
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    position: relative;
+    gap: 50px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.talla1{
+    height: auto;
+    width: 40px;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+
+.talla1:hover{
+    background-color: #3e3e3e;
+    color: white;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.descrip {
+    color: #2b2b2b;
+}
+
+.btn-carrito {
+    width: 320px;
+}
+.pp{
+    margin-bottom: 30px;
+}
+
+
+.talla1:hover{
+    background-color: #3e3e3e;
+    color: white;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.descrip {
+    color: #2b2b2b;
+}
+
+.btn-carrito {
+    width: 320px;
+}
+.pp{
+    margin-bottom: 30px;
+}

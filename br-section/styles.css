@@ -1,5 +1,6 @@
 @import url(../breaktime/styles.css);
 @import url(/styles.css);
+@import url(../py-section/styles.css);
 
 .colec-line-sp {
     color: #000;
