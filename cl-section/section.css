@@ -74,3 +74,34 @@
     text-align: left;
     font-size: 20px;
 }
+/* CONTENIDO */
+.contenido{
+    font-size: 15px;
+  }
+  /* WHATSAPP */
+  .wasa{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+  }
+  
+  /* PIE PÀGINA */
+  .pie{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  }
+  
+  .ultimo{
+    line-height: 18px;
+    font-size: 15px;
+  }
+
+  .pp{
+    margin-left: 20px;
+  }
+  .pp2{
+    margin-left: 82px;
+  }
