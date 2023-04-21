@@ -1,0 +1,19 @@
+@import url(../breaktime/styles.css);
+
+
+.looks{
+    width: 100%;
+    height: auto;
+}
+.pad1{
+    padding-left:3px ;
+}
+.pad2{
+    padding-right: 3px;
+}
+h4{
+    color:  black;
+}
+.text{
+    color: grey;
+}

@@ -1,0 +1,59 @@
+@import url(../breaktime/styles.css);
+@import url(/styles.css);
+@import url(../py-section/styles.css);
+
+.colec-line-sp {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 40px;
+}
+
+.colec-line-sp:hover {
+    color: #A3A3A3;
+}
+
+.botones-in{
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    position: relative;
+    gap: 50px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.talla{
+    height: auto;
+    width: 40px;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+
+.talla:hover{
+    background-color: #3e3e3e;
+    color: white;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.descrip {
+    color: #2b2b2b;
+}
+
+.btn-carrito {
+    width: 320px;
+}
+.pp{
+    margin-bottom: 30px;
+}

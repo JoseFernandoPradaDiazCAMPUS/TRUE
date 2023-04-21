@@ -1,169 +1,359 @@
 <!DOCTYPE html>
 <html lang="sp">
+
 <head>
-    <meta charset="UTF-8">
-    <meta class="" http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TRUE SHOP</title>
-    <link rel="stylesheet" class="" href="./styles.css">
-    <link class="" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" class="" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/0311/9398/9260/files/logo_true_bc7c1d15-cc6c-4e31-bd2b-2d056f8e3c33_32x32.png?v=1613706545" type="image/png">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
-    <script src="./main.js" defer></script>
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="./main.js" defer></script>
+  <title>TRUE SHOP</title>
+
 </head>
+
 <body>
-    <!-- NAVBAR -->
-    <header>
-        <div class="header-top">
-          <div class="container">
-                <div class="col">
-                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <p class="coli-p">¡BIENVENIDOS A TRUE! UNA EXPERIENCIA VISUAL</p>
-                    </div>
-                    <div class="carousel-item">
-                        <p class="coli-p">ENVÍOS GRATIS POR COMPRAS DESDE $65.000</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
+
+  <header>
+    <div class="header-top">
+      <div class="container-fluid">
+        <div class="col">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p class="coli-p">¡BIENVENIDOS A TRUE! UNA EXPERIENCIA VISUAL</p>
+              </div>
+              <div class="carousel-item">
+                <p class="coli-p">ENVÍOS GRATIS POR COMPRAS DESDE $65.000</p>
+              </div>
+            </div>
           </div>
         </div>
-        <nav>
-            <div class="row nav-row g-0">
-                <div class="col-5 col-lg-1 col mobile-nav ps-4 d-flex align-items-center">
-                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
-                        <img src="./images/iconMenuNav.png" style="width: 30px; height: auto;">
-                    </button>
-                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-                        <div class="offcanvas-header d-flex justify-content-end">
-                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <ul class="lista-offcanvas">
-                                <li>
-                                    <a class="link-offcanvas link-offcanvas-especial" href="#">SALE</a>
-                                </li>
-                                <li>
-                                    <a class="link-offcanvas" href="#">Nuevo</a>
-                                </li>
-                                <li>
-                                    <a class="link-offcanvas" href="#">Clásicas</a>
-                                </li>
-                                <li>
-                                    <a class="link-offcanvas dropdown" href="#">Mujer</a>
-                                </li>
-                                <li>
-                                    <a class="link-offcanvas" href="#">Hombre</a>
-                                </li>
-                                <li>
-                                    <a class="link-offcanvas" href="#">Tarjeta Regalo</a>
-                                </li>
-                                <li>
-                                    <a class="link-offcanvas" href="#">Packs</a>
-                                </li>
-                                <li>
-                                    <a class="link-offcanvas " href="#">Colecciones</a>
-                                </li>
-                                <li>
-                                    <a class="link-offcanvas" href="#">Looks</a>
-                                </li>
-                                <li>
-                                    <a class="link-offcanvas" href="#">Tiendas</a>
-                                </li>
-                                <li>
-                                    <a class="link-offcanvas" href="#">Cambios y Devoluciones</a>
-                                </li>
-                                <li>
-                                    <a class="link-offcanvas" href="#">Blog</a>
-                                </li>
-                                <li>
-                                    <a class="link-offcanvas" href="#">About Us</a>
-                                </li>
-                                <li>
-                                    <a class="link-offcanvas link-offcanvas-especial" href="#">TRUE STORY</a>
-                                </li>
-                                <li>
-                                    <a class="link-offcanvas link-offcanvas-especial" href="https://www.tiktok.com/es/">TIK TOK</a>
-                                </li>
-                                <li>
-                                    <button type="button" class="btn btn-dark btn-offcanvas">Login</button>
-                                </li>
-                            </ul>
-                        </div>
+      </div>
+    </div>
+    <nav>
+      <div class="row nav-row g-0">
+        <div class="col-5 col-lg-1 col mobile-nav ps-4 d-flex align-items-center">
+          <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+            aria-controls="offcanvasScrolling">
+            <img src="../images/iconMenuNav.png" style="width: 30px; height: auto;">
+          </button>
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header d-flex justify-content-end">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="lista-offcanvas">
+                <li>
+                  <a class="link-offcanvas link-offcanvas-especial" href="#">SALE</a>
+                </li>
+                <li>
+                  <a class="link-offcanvas" href="#">Nuevo</a>
+                </li>
+                <li>
+                  <a class="link-offcanvas" href="#">Clásicas</a>
+                </li>
+                <li>
+                  <a class="link-offcanvas dropdown" href="#">Mujer</a>
+                </li>
+                <li>
+                  <a class="link-offcanvas" href="#">Hombre</a>
+                </li>
+                <li>
+                  <a class="link-offcanvas" href="#">Tarjeta Regalo</a>
+                </li>
+                <li>
+                  <a class="link-offcanvas" href="../packs/index.html">Packs</a>
+                </li>
+                <li>
+                  <a class="accordion a" id="accordionExample">
+                    <div class="accordion-item accordion-header" id="headingOne">
+
+                      <button class="accordion-button m-0 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <b>Colecciones</b>
+                      </button>
+                  </a>
+                  <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul class=" m-0 p-0" style="list-style-type:none !important; ">
+                        <li><a class="dropdown-item" href="../br-section/index.html"><b>Aire Libre</b></a></li>
+
+                        <li><a class="dropdown-item" href="#"><b>Beachwear</b></a></li>
+
+                        <li><a class="dropdown-item" href="#"><b>Classics 2.0</b></a></li>
+
+                        <li><a class="dropdown-item" href="#"><b>Senses</b></a></li>
+
+                        <li><a class="dropdown-item" href="#"><b>Playwear Basics</b></a></li>
+
+                        <li><a class="dropdown-item" href="#"><b>Blurred</b></a></li>
+
+                        <li><a class="dropdown-item" href="../breaktime/index.html"><b>Breaktime</b></a></li>
+
+                        <li><a class="dropdown-item" href="../playground/index.html"><b>Playground City</b></a></li>
+                      </ul>
                     </div>
-                </div>
-                <div class="col-lg-4 px-4 d-lg-flex align-items-center justify-content-around d-block d-none">
-                    <a class="nalink " href="#">NUEVO</a>
-                    <a class="nalink nalink-special" href="#">SALE</a>
-                    <a class="nalink " href="#">HOMBRE</a>
-                    <a class="nalink " href="#">MUJER</a>
-                    <a class="nalink " href="#">LOOKS</a>
-                </div>
-                <div class="col-2 d-lg-flex align-items-center justify-content-around ">
-                    <a class="" href="./index.html">
-                        <img src="./images/trueNavbarIcon.png" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-4 px-4 d-lg-flex align-items-center justify-content-around d-block d-none">
-                    <a class="nalink nalink-special" href="https://www.tiktok.com/es/">TIKTOK</a>
-                    <a class="nalink" href="#">COLECCIONES</a>
-                    <a class="nalink " href="#">BLOG</a>
-                    <a class="nalink " href="#">SUSCRIBETE</a>
-                </div>
-                <div class="col-5 p-0 col-md-1"></div>
+                  </div>
             </div>
-        </nav>
-    </header>
-    <!-- BOTÓN DE WHATSAPP -->
-    <a href="https://web.whatsapp.com" target="_blank" rel="noopener noreferrer">
-        <img src="./icon.png/whatsapp.png" alt="WhatsApp" class="wasa">
-    </a>
-    <!-- PIE DE PÁGINA -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xxl-2 col-lg-6 col-12 py-5" target="_blank" rel="noopener noreferrer">
-                <a href="#" class="pie"><h6>+&nbsp;&nbsp;NOSOTROS</h6></a>
-            </div>
-            <div class="col-xxl-2 col-lg-6 col-12 py-5" target="_blank" rel="noopener noreferrer">
-                <a href="#" class="pie"><h6>+&nbsp;&nbsp;TIENDAS</h6></a>
-            </div>
-            <div class="col-xxl-2 col-lg-6 col-12 py-5" target="_blank" rel="noopener noreferrer">
-                <a href="#" class="pie"><h6>+&nbsp;&nbsp;POLÍTICAS Y ENVÍOS</h6></a>
-            </div>
-            <div class="col-xxl-2 col-lg-6 col-12 py-5" target="_blank" rel="noopener noreferrer">
-                <a href="#" class="pie"><h6>+&nbsp;&nbsp;CAMBIOS, DEVOLUCIONES Y GARANTÍAS</h6></a>
-            </div>
-            <div class="col-xxl-2 col-lg-12 col-12 py-5" target="_blank" rel="noopener noreferrer">
-                <a href="#" class="pie"><h6>+&nbsp;&nbsp;SUSCRÍBETE</h6></a>
-            </div>
+            </li>
+            <li>
+              <a class="link-offcanvas" href="../looks/index.html">Looks</a>
+            </li>
+            <li>
+              <a class="link-offcanvas" href="#">Tiendas</a>
+            </li>
+            <li>
+              <a class="link-offcanvas" href="#">Cambios y Devoluciones</a>
+            </li>
+            <li>
+              <a class="link-offcanvas" href="#">Blog</a>
+            </li>
+            <li>
+              <a class="link-offcanvas" href="#">About Us</a>
+            </li>
+            <li>
+              <a class="link-offcanvas link-offcanvas-especial" href="#">TRUE STORY</a>
+            </li>
+            <li>
+              <a class="link-offcanvas link-offcanvas-especial" href="https://www.tiktok.com/es/">TIK TOK</a>
+            </li>
+            <li>
+              <button type="button" class="btn btn-dark btn-offcanvas">Login</button>
+            </li>
+            </ul>
+          </div>
         </div>
-        <br>
-        <br>
+
+      </div>
+      <div class="col-lg-4 px-4 d-lg-flex align-items-center justify-content-around d-block d-none">
+        <a class="nalink " href="#">NUEVO</a>
+        <a class="nalink nalink-special" href="#">SALE</a>
+        <a class="nalink " href="#">HOMBRE</a>
+        <a class="nalink " href="#">MUJER</a>
+        <a class="nalink " href="../looks/index.html">LOOKS</a>
+      </div>
+      <div class="col-2 d-lg-flex align-items-center justify-content-around ">
+        <a class="" href="./index.html">
+          <img src="../images/trueNavbarIcon.png" alt="">
+        </a>
+      </div>
+      <div class="col-lg-4 px-4 d-lg-flex align-items-center justify-content-around d-block d-none">
+        <a class="nalink nalink-special" href="https://www.tiktok.com/es/">TIKTOK</a>
+        <a class="" href="#"></a>
+        <a type="button" class="nalink dropdown" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+          aria-expanded="false">COLECCIONES</a>
+        <ul class="dropdown-menu m-2">
+          <li><a class="dropdown-item" href="../br-section/index.html">Aire Libre</a></li>
+          <li>
+            <hr class="dropdown-divider m-0">
+          </li>
+          <li><a class="dropdown-item" href="#">Beachwear</a></li>
+          <li>
+            <hr class="dropdown-divider m-0">
+          </li>
+          <li><a class="dropdown-item" href="#">Classics 2.0</a></li>
+          <li>
+            <hr class="dropdown-divider m-0">
+          </li>
+          <li><a class="dropdown-item" href="#">Senses</a></li>
+          <li>
+            <hr class="dropdown-divider m-0">
+          </li>
+          <li><a class="dropdown-item" href="#">Playwear Basics</a></li>
+          <li>
+            <hr class="dropdown-divider m-0">
+          </li>
+          <li><a class="dropdown-item" href="#">Blurred</a></li>
+          <li>
+            <hr class="dropdown-divider m-0">
+          </li>
+          <li><a class="dropdown-item" href="../breaktime/index.html">Breaktime</a></li>
+          <li>
+            <hr class="dropdown-divider m-0">
+          </li>
+          <li><a class="dropdown-item" href="../playground/index.html">Playground City</a></li>
+        </ul>
+        <a class="nalink " href="#">BLOG</a>
+        <a class="nalink " href="#">SUSCRIBETE</a>
+      </div>
+      <div class="col-5 p-0 col-md-1"></div>
+    </nav>
+  </header>
+  <div class="row colec-row align-items-center mt-2 py-2 g-0">
+    <div class="col-12">
+      <a class="colec-line ">| Looks</a>
     </div>
-    <div class="container-fliud">
-        <div class="container">
-            <div class="row text-center">
-                <ul class="icons-fin">
-                    <a href="https://es-la.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="./icon.png/facebook.png" style="width: 20px; height: 20px;"></a>
-                    <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer"><img src="./icon.png/gorjeo.png" style="width: 20px; height: 20px;"></a>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="./icon.png/logotipo-de-instagram.png" style="width: 20px; height: 20px;"></a>
-                    <a href="https://www.tiktok.com/es/" target="_blank" rel="noopener noreferrer"><img src="./icon.png/tik-tok.png" style="width: 20px; height: 20px;"></a>
-                    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><img src="./icon.png/whatsapp-logo.png" style="width: 20px; height: 20px;"></a>
-                </ul>
-                <p class="ultimo"><strong>+57 310 545 8640 | Medellín: Calle 10 # 36-14, El Poblado | Bogotá: Calle 80 # 13 A - 27, Zona Rosa</strong></p>
-                <br>
-                <div class="row py-3">
-                    <p class="ultimo"><strong>©Copyright 2023 TRUE all rights reserved.</strong></p>
-                    <p class="ultimo"><strong>Nueve Nueve Dos SAS | 901385230-8</strong></p>
-                </div>
-            </div>
-        </div>
+  </div>
+  <div class="row position-relative py-5">
+    <div class="col-12 text-center">
+      <h1><b>LOOKS</b></h1><br>
+      <div class="fs-4 text"><b>Inspírate con diferentes looks y descubre cómo armar tus outfits con todos los productos
+          de la última colección de TRUE.</b></div>
     </div>
+  </div>
+  <div class="row position-relative g-0 p-0 top-0 py-5 px-5">
+    <div class="col-sm-6 col-md-3 col-xxl-3  py-3  d-flex justify-content-center" data-aos="fade-up">
+      <img class="imgFl  img-fluid looks pad2"
+        src="//cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_50x.jpg?v=1680545984"
+        width="576" height="1024" data-widths="[300, 500, 750, 1000, 1350, 1600, 2000]" data-aspectratio="0.5625"
+        data-sizes="auto" alt=""
+        data-srcset="//cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_300x.jpg?v=1680545984 300w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_500x.jpg?v=1680545984 500w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_750x.jpg?v=1680545984 750w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1000x.jpg?v=1680545984 1000w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1350x.jpg?v=1680545984 1350w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1600x.jpg?v=1680545984 1600w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2000x.jpg?v=1680545984 2000w"
+        sizes="323px"
+        srcset="//cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_300x.jpg?v=1680545984 300w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_500x.jpg?v=1680545984 500w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_750x.jpg?v=1680545984 750w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1000x.jpg?v=1680545984 1000w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1350x.jpg?v=1680545984 1350w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1600x.jpg?v=1680545984 1600w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2000x.jpg?v=1680545984 2000w">
+
+    </div>
+
+
+    <div class="col-sm-6 col-md-3 col-xxl-3  py-3 d-flex justify-content-center" data-aos="fade-up">
+      <img class="imgFl  img-fluid looks px-1"
+        src="//cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1_50x.jpg?v=1680546014"
+        width="576" height="1024" data-widths="[300, 500, 750, 1000, 1350, 1600, 2000]" data-aspectratio="0.5625"
+        data-sizes="auto" alt=""
+        data-srcset="//cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1_300x.jpg?v=1680546014 300w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1_500x.jpg?v=1680546014 500w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1_750x.jpg?v=1680546014 750w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1_1000x.jpg?v=1680546014 1000w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1_1350x.jpg?v=1680546014 1350w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1_1600x.jpg?v=1680546014 1600w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1_2000x.jpg?v=1680546014 2000w"
+        sizes="323px"
+        srcset="//cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1_300x.jpg?v=1680546014 300w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1_500x.jpg?v=1680546014 500w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1_750x.jpg?v=1680546014 750w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1_1000x.jpg?v=1680546014 1000w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1_1350x.jpg?v=1680546014 1350w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1_1600x.jpg?v=1680546014 1600w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_1_2000x.jpg?v=1680546014 2000w">
+
+    </div>
+
+    <div class="col-sm-6 col-md-3 col-xxl-3  py-3 d-flex justify-content-center" data-aos="fade-up">
+      <img class="imgFl  img-fluid looks px-1"
+        src="//cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2_50x.jpg?v=1680546050"
+        width="576" height="1024" data-widths="[300, 500, 750, 1000, 1350, 1600, 2000]" data-aspectratio="0.5625"
+        data-sizes="auto" alt=""
+        data-srcset="//cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2_300x.jpg?v=1680546050 300w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2_500x.jpg?v=1680546050 500w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2_750x.jpg?v=1680546050 750w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2_1000x.jpg?v=1680546050 1000w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2_1350x.jpg?v=1680546050 1350w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2_1600x.jpg?v=1680546050 1600w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2_2000x.jpg?v=1680546050 2000w"
+        sizes="323px"
+        srcset="//cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2_300x.jpg?v=1680546050 300w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2_500x.jpg?v=1680546050 500w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2_750x.jpg?v=1680546050 750w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2_1000x.jpg?v=1680546050 1000w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2_1350x.jpg?v=1680546050 1350w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2_1600x.jpg?v=1680546050 1600w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_2_2000x.jpg?v=1680546050 2000w">
+
+    </div>
+
+    <div class="col-sm-6 col-md-3 col-xxl-3  py-3 d-flex justify-content-center" data-aos="fade-up">
+      <img class="imgFl  img-fluid looks pad1"
+        src="//cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_3_50x.jpg?v=1680546068"
+        width="576" height="1024" data-widths="[300, 500, 750, 1000, 1350, 1600, 2000]" data-aspectratio="0.5625"
+        data-sizes="auto" alt=""
+        data-srcset="//cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_3_300x.jpg?v=1680546068 300w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_3_500x.jpg?v=1680546068 500w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_3_750x.jpg?v=1680546068 750w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_3_1000x.jpg?v=1680546068 1000w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_3_1350x.jpg?v=1680546068 1350w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_3_1600x.jpg?v=1680546068 1600w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_3_2000x.jpg?v=1680546068 2000w"
+        sizes="323px"
+        srcset="//cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_3_300x.jpg?v=1680546068 300w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_3_500x.jpg?v=1680546068 500w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_3_750x.jpg?v=1680546068 750w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_3_1000x.jpg?v=1680546068 1000w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_3_1350x.jpg?v=1680546068 1350w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_3_1600x.jpg?v=1680546068 1600w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/WhatsApp_Image_2023-04-03_at_12.34.07_3_2000x.jpg?v=1680546068 2000w">
+
+    </div>
+  </div>
+
+
+
+  <div class="row position-relative g-0 p-0 top-0 py-5 px-5">
+    <div class="col-sm-6 col-md-3 col-xxl-3  py-3 d-flex justify-content-center " data-aos="fade-up">
+      <img class="imgFl  img-fluid looks pad2"
+        src="//cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_8_50x.jpg?v=1680560488" width="576"
+        height="1024" data-widths="[300, 500, 750, 1000, 1350, 1600, 2000]" data-aspectratio="0.5625" data-sizes="auto"
+        alt=""
+        data-srcset="//cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_8_300x.jpg?v=1680560488 300w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_8_500x.jpg?v=1680560488 500w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_8_750x.jpg?v=1680560488 750w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_8_1000x.jpg?v=1680560488 1000w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_8_1350x.jpg?v=1680560488 1350w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_8_1600x.jpg?v=1680560488 1600w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_8_2000x.jpg?v=1680560488 2000w"
+        sizes="323px"
+        srcset="//cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_8_300x.jpg?v=1680560488 300w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_8_500x.jpg?v=1680560488 500w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_8_750x.jpg?v=1680560488 750w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_8_1000x.jpg?v=1680560488 1000w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_8_1350x.jpg?v=1680560488 1350w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_8_1600x.jpg?v=1680560488 1600w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_8_2000x.jpg?v=1680560488 2000w">
+
+    </div>
+
+
+    <div class="col-sm-6 col-md-3 col-xxl-3  py-3 d-flex justify-content-center" data-aos="fade-up">
+      <img class="imgFl  img-fluid looks px-1"
+        src="//cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_7_50x.jpg?v=1680560212" width="576"
+        height="1024" data-widths="[300, 500, 750, 1000, 1350, 1600, 2000]" data-aspectratio="0.5625" data-sizes="auto"
+        alt=""
+        data-srcset="//cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_7_300x.jpg?v=1680560212 300w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_7_500x.jpg?v=1680560212 500w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_7_750x.jpg?v=1680560212 750w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_7_1000x.jpg?v=1680560212 1000w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_7_1350x.jpg?v=1680560212 1350w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_7_1600x.jpg?v=1680560212 1600w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_7_2000x.jpg?v=1680560212 2000w"
+        sizes="323px"
+        srcset="//cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_7_300x.jpg?v=1680560212 300w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_7_500x.jpg?v=1680560212 500w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_7_750x.jpg?v=1680560212 750w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_7_1000x.jpg?v=1680560212 1000w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_7_1350x.jpg?v=1680560212 1350w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_7_1600x.jpg?v=1680560212 1600w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_7_2000x.jpg?v=1680560212 2000w">
+
+    </div>
+
+    <div class="col-sm-6 col-md-3 col-xxl-3  py-3 d-flex justify-content-center" data-aos="fade-up">
+      <img class="imgFl  img-fluid looks px-1"
+        src="//cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_1_50x.jpg?v=1680560662" width="576"
+        height="1024" data-widths="[300, 500, 750, 1000, 1350, 1600, 2000]" data-aspectratio="0.5625" data-sizes="auto"
+        alt=""
+        data-srcset="//cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_1_300x.jpg?v=1680560662 300w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_1_500x.jpg?v=1680560662 500w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_1_750x.jpg?v=1680560662 750w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_1_1000x.jpg?v=1680560662 1000w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_1_1350x.jpg?v=1680560662 1350w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_1_1600x.jpg?v=1680560662 1600w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_1_2000x.jpg?v=1680560662 2000w"
+        sizes="323px"
+        srcset="//cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_1_300x.jpg?v=1680560662 300w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_1_500x.jpg?v=1680560662 500w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_1_750x.jpg?v=1680560662 750w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_1_1000x.jpg?v=1680560662 1000w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_1_1350x.jpg?v=1680560662 1350w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_1_1600x.jpg?v=1680560662 1600w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_1_2000x.jpg?v=1680560662 2000w">
+
+    </div>
+
+    <div class="col-sm-6 col-md-3 col-xxl-3  py-3 d-flex justify-content-center" data-aos="fade-up">
+      <img class="imgFl  img-fluid looks pad1"
+        src="//cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_4_50x.jpg?v=1680560644" width="576"
+        height="1024" data-widths="[300, 500, 750, 1000, 1350, 1600, 2000]" data-aspectratio="0.5625" data-sizes="auto"
+        alt=""
+        data-srcset="//cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_4_300x.jpg?v=1680560644 300w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_4_500x.jpg?v=1680560644 500w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_4_750x.jpg?v=1680560644 750w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_4_1000x.jpg?v=1680560644 1000w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_4_1350x.jpg?v=1680560644 1350w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_4_1600x.jpg?v=1680560644 1600w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_4_2000x.jpg?v=1680560644 2000w"
+        sizes="323px"
+        srcset="//cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_4_300x.jpg?v=1680560644 300w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_4_500x.jpg?v=1680560644 500w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_4_750x.jpg?v=1680560644 750w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_4_1000x.jpg?v=1680560644 1000w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_4_1350x.jpg?v=1680560644 1350w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_4_1600x.jpg?v=1680560644 1600w, //cdn.shopify.com/s/files/1/0311/9398/9260/files/looks_beachwear_4_2000x.jpg?v=1680560644 2000w">
+
+    </div>
+  </div>
+
+
+  <div class="row g-0 ps-5 pt-5">
+    <div class="col-xxl-2 col-lg-6 col-12 pp" target="_blank" rel="noopener noreferrer">
+      <a href="#" class="pie">
+        <h6><b>+&nbsp;&nbsp;NOSOTROS</b></h6>
+      </a>
+    </div>
+    <div class="col-xxl-2 col-lg-6 col-12 pp" target="_blank" rel="noopener noreferrer">
+      <a href="#" class="pie">
+        <h6><b>+&nbsp;&nbsp;TIENDAS</b></h6>
+      </a>
+    </div>
+    <div class="col-xxl-2 col-lg-6 col-12 pp" target="_blank" rel="noopener noreferrer">
+      <a href="#" class="pie">
+        <h6><b>+&nbsp;&nbsp;POLÍTICAS Y ENVÍOS</b></h6>
+      </a>
+    </div>
+    <div class="col-xxl-2 col-lg-6 col-12 pp" target="_blank" rel="noopener noreferrer">
+      <a href="#" class="pie">
+        <h6><b>+&nbsp;&nbsp;CAMBIOS, DEVOLUCIONES Y GARANTÍAS</b></h6>
+      </a>
+    </div>
+    <div class="col-xxl-2 col-lg-12 col-12 pp" target="_blank" rel="noopener noreferrer">
+      <a href="#" class="pie">
+        <h6><b>+&nbsp;&nbsp;SUSCRÍBETE</b></h6>
+      </a>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="row text-center g-0">
+    <ul class="icons-fin">
+      <a href="https://es-la.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="../icon/facebook.png"
+          style="width: 20px; height: 20px;"></a>
+      <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer"><img src="../icon/twitter.png"
+          style="width: 20px; height: 20px;"></a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="../icon/instagram.png"
+          style="width: 20px; height: 20px;"></a>
+      <a href="https://www.tiktok.com/es/" target="_blank" rel="noopener noreferrer"><img src="../icon/tik-tok.png"
+          style="width: 20px; height: 20px;"></a>
+      <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><img src="../icon/whatsapp-logo.png"
+          style="width: 20px; height: 20px;"></a>
+    </ul>
+    <p class="ultimo"><strong>+57 310 545 8640 | Medellín: Calle 10 # 36-14, El Poblado | Bogotá: Calle 80 #
+        13 A - 27, Zona Rosa</strong></p>
+    <br>
+    <div class="row py-3">
+      <p class="ultimo"><strong>©Copyright 2023 TRUE all rights reserved.</strong></p>
+      <p class="ultimo"><strong>Nueve Nueve Dos SAS | 901385230-8</strong></p>
+    </div>
+  </div>
+
+
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>

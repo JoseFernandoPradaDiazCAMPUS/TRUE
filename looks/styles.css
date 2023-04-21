@@ -1,119 +1,18 @@
-/* NAVBAR */
-*{
-    margin-bottom: 0;
-}
+@import url(../breaktime/styles.css);
 
-@font-face {
-    font-family: Sequel;
-    src: url(./fonts/sequel-100-black-96.ttf);
-}
-
-.header-top{
-    background-color: black;
-}
-.carousel-item{
-    color: white;
-}
-
-.coli-p {
-    font-size: 12px;
-    text-align: center;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-.nav-row {
-    height: 50px;
-    width: auto;
-}
-.nalink{
-    color: #000;
-    font-size: 15px;
-    margin-left: 11px;
-    margin-right: 11px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.nalink-special{
-    font-family: Sequel;
-}
-
-.nalink:hover{
-    color: #A3A3A3;
-}
-
-.lista-offcanvas{
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    list-style-type: none;
-}
-
-.lista-offcanvas li{
-    margin-bottom: 20px;
-}
-
-.link-offcanvas{
-    color: #000;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.link-offcanvas:hover{
-    color: #A3A3A3;
-}
-
-.link-offcanvas-especial {
-    font-family: Sequel;
-}
-
-.btn-offcanvas {
-    width: 180px;
+.looks{
+    width: 100%;
     height: auto;
 }
-
-/* CONTENIDO */
-.contenido{
-    font-size: 15px;
+.pad1{
+    padding-left:3px ;
 }
-
-/* WHATSAPP */
-.wasa{
-    position:fixed;
-    width:60px;
-    height:60px;
-    line-height: 63px;
-    bottom:25px;
-    right:25px;
-    background:#25d366;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-    font-size:35px;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
-    z-index:100;
-    transition: all 300ms ease;
-  }
-  .wasa:hover{
-    background: #20ba5a;
-  }
-  @media only screen and (min-width:320px) and (max-width:768px){
-    .wasa{
-        width:63px;
-        height:63px;
-        line-height: 66px;
-  }
-  }
-
-/* PIE PÀGINA */
-.pie{
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
+.pad2{
+    padding-right: 3px;
 }
-
-.ultimo{
-    line-height: 18px;
-    font-size: 15px;
+h1{
+    color: grey;
+}
+.text{
+    color: gray;
 }
