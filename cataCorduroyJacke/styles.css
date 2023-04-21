@@ -64,3 +64,28 @@
 .btn-carrito {
     width: 320px;
 }
+
+/* CONTENIDO */
+.contenido{
+    font-size: 15px;
+  }
+  /* WHATSAPP */
+  .wasa{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+  }
+  
+  /* PIE PÀGINA */
+  .pie{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  }
+  
+  .ultimo{
+    line-height: 18px;
+    font-size: 15px;
+  }

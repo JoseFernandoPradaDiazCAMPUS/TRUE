@@ -1,0 +1,7 @@
+@import url(../styles.css);
+@import url(../coleccionAireLibre/styles.css);
+
+.abs-title{
+    font-size: 45px;
+    font-weight: bold;
+}
