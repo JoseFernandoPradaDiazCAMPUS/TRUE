@@ -333,3 +333,8 @@ p{
 .filtrar{
   margin: 10px;
 }
+
+.pie{
+  color: black;
+  text-decoration: none;
+}
