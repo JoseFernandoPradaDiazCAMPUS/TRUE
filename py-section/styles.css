@@ -21,7 +21,11 @@
     border-color: white !important;
 }
 .a{
+    color:white !important;
     text-decoration: none !important;
+}
+.accordion-button::after {
+    width: 0px !important;
 }
 
 .colec-line-sp {
