@@ -1,7 +1,40 @@
 @import url(../styles.css);
 @import url(../coleccionAireLibre/styles.css);
-
+@font-face {
+    font-family: Inter;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+}
 .abs-title{
+    color: #000;
     font-size: 45px;
     font-weight: bold;
+    font-family: Inter;
+}
+
+.abs-txt{
+    color: #000;
+    font-size: 20px;
+}
+
+.aboutus-content {
+    background-color: #000;
+}
+
+.content-title{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Inter;
+}
+
+.content-txt {
+    color: #fff;
+    font-size: 16px;
+    font-family: Inter;
+}
+
+.end-content {
+    color: #2a2a2a;
+    font-size: 11px;
+    font-family: Inter;
 }
